@@ -5,7 +5,22 @@ const { getMaxListeners } = require("process");
 const Engineer = require("../lib/Engineer");
 
 
-test('Should return an object', ()=>{
-    const bob = new Engineer()
-    expect(typeof(bob)).toBe("object")
-    });
+test('Should return an object', () => {
+    const mary = new Engineer()
+    expect(typeof (mary)).toBe("object")
+});
+
+
+
+test('Should return a GitHub user name', () => {
+    const gitHub = "cocoder"
+    const mary = new Engineer("Mary", "10", "bob@gmail.com", gitHub)
+    expect(mary.getGitHub()).toBe(gitHub)
+});
+
+
+test("Should return role", () => {
+    const mary = new Engineer
+    expect(mary.getRole()).toBe("Engineer")
+})
+
