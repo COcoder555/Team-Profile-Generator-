@@ -11,9 +11,9 @@ test('Should return an object', () => {
 });
 
 test("Shoud return a office number", () => {
-    const phone = "970-555-555"
-    const number = new Manager("Mary", "10", "mary@gmail.com", phone)
-    expect(number.phone).toBe(phone)
+    const officeNumber = "970-555-555"
+    const number = new Manager("Mary", "10", "mary@gmail.com", officeNumber)
+    expect(number.officeNumber).toBe(officeNumber)
 });
 
 test("Should return role", () => {

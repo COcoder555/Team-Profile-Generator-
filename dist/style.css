@@ -3,18 +3,19 @@ h1{
 height: 12vh;
 font-size: 8vh;
 text-align: center;
-background-color: rgb(83, 10, 131);
+background-color: rgb(10, 66, 131);
 border-radius: 2%;
+color:white
 }
 
 .card{
-    background-color: blue;
-    height: 30vh;
-    width:px;
+    
+    background-color: rgb(7, 9, 117);
     color:white;
+    margin:1%;
     
 }
 
 .card body{
-    height: 
+    height:5vh;
 }
