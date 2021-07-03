@@ -14,8 +14,8 @@ const createHTML =(data)=>{
             </p>
             <ul>
             <li>ID: ${data[i].getID()}</li>
-            <li>Email:<a href =""> ${data[i].getEmail()}</a></li>
-            <li>GitHub:<a href ="">${data[i].getGitHub()}</a></li>
+            <li>Email:<a href ="mailto:${data[i].getEmail()}"> ${data[i].getEmail()}</a></li>
+            <li>GitHub:<a href ="https://github.com/${data[i].getGitHub()}">${data[i].getGitHub()}</a></li>
         </ul>
         </div>
     </div>
@@ -33,7 +33,7 @@ const createHTML =(data)=>{
         </p>
         <ul>
         <li>ID: ${data[i].getID()}</li>
-        <li>Email:<a href =""> ${data[i].getEmail()}</a></li>
+        <li>Email:<a href ="mailto:${data[i].getEmail()}"> ${data[i].getEmail()}</a></li>
         <li>School: ${data[i].getSchool()}</li>
     </ul>
     </div>
@@ -77,7 +77,7 @@ break
                         </p>
                         <ul>
                         <li> ID: ${data[0].getID()}</li>
-                        <li>Email:<a href = ""> ${data[0].getEmail()}</a></li>
+                        <li>Email:<a href = "mailto:${data[0].getEmail()}"> ${data[0].getEmail()}</a></li>
                         <li>Office Number:${data[0].officeNumber}</li>
                     </ul>
                     </div>
