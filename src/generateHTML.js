@@ -13,9 +13,9 @@ const createHTML =(data)=>{
             ${data[i].getRole()}
             </p>
             <ul>
-            <li> ${data[i].getID()}</li>
-            <li><a href =""> ${data[i].getEmail()}</a></li>
-            <li><a href =""> ${data[i].getGitHub()}</a></li>
+            <li>ID: ${data[i].getID()}</li>
+            <li>Email:<a href =""> ${data[i].getEmail()}</a></li>
+            <li>GitHub:<a href ="">${data[i].getGitHub()}</a></li>
         </ul>
         </div>
     </div>
@@ -32,9 +32,9 @@ const createHTML =(data)=>{
         ${data[i].getRole()}
         </p>
         <ul>
-        <li> ${data[i].getID()}</li>
-        <li><a href =""> ${data[i].getEmail()}</a></li>
-        <li> ${data[i].getSchool()}</li>
+        <li>ID: ${data[i].getID()}</li>
+        <li>Email:<a href =""> ${data[i].getEmail()}</a></li>
+        <li>School: ${data[i].getSchool()}</li>
     </ul>
     </div>
 </div>
@@ -76,9 +76,9 @@ break
                         ${data[0].getRole()}
                         </p>
                         <ul>
-                        <li> ${data[0].getID()}</li>
-                        <li><a href = ""> ${data[0].getEmail()}</a></li>
-                        <li> ${data[0].officeNumber}</li>
+                        <li> ID: ${data[0].getID()}</li>
+                        <li>Email:<a href = ""> ${data[0].getEmail()}</a></li>
+                        <li>Office Number:${data[0].officeNumber}</li>
                     </ul>
                     </div>
                 </div>
