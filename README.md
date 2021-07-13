@@ -49,7 +49,7 @@ To begin I started with requiring the following:
 At the top I created an empty array called data. Then I created 4 array's of objects, one for each of the employee types and thier questions as well as one for the menue questions. Each had a type, name, and message keys. All of the objects had messages that asked questions for name, id, and email.  The managerQuestions had an addtional question for office nuber. The engineerQuestions had addtional question git hub user name. The internQuestions had an additonal question for school.   The menuQuestions were given a list of options to choose from and those were: " "Add an Engineer", "Add an Intern", or "Finished adding new Employee's."  At the end I created functions that corresponded with each oject of arrays to push that users response to those questions to the empty array called "data" at the beggining top of the file.  From there I wrote a "write to file" funciton that passes the data array as a paramter and is called when the user chooses the "Finished adding new Employee's" menue option.  That data array is also used in generateHTMLfile in the template literals to populate the areas of the HTML that changes depending on the user input. 
 
 
-[Walk Through Video](https://drive.google.com/file/d/1A6FEabUxTSNQQoyITnMKs5fHrWtLzBro/view)
+[Walk Through Video](https://drive.google.com/file/d/1WSveZMOKrFlyST-pVzWELuAm6s6LkfiF/view?usp=sharing)
 
 
 
